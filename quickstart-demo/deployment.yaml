@@ -9,8 +9,6 @@ spec:
       run: nginx
   template:
     metadata:
-      annotations:
-        linkerd.io/inject: enabled
       labels:
         run: nginx
     spec:
